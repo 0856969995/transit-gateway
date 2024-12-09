@@ -1,3 +1,5 @@
+canonifyURLs = true
+
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 
@@ -11,31 +13,54 @@ home = [ "HTML", "RSS", "JSON"]
   # Git hub repo link
   editURL = ""
   description = ""
-  author = "journeyoftheaverageguy@gmail.com"
+  author = "hoang2k3hy@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
   
 [Languages]
 [Languages.en]
-title = "AWS System Manager"
+title = "AWS Transit Gateway Workshop"
 weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> AWS Study Group"
+name = "<i class='fab fa-facebook'></i> AWS Study Group - FB Group"
 identifier = "AWS Study Group FB"
-url = "https://www.facebook.com/groups/awsstudygroupfcj/"
+url = "https://www.facebook.com/groups/awsstudygroupfcj"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-linkedin'></i> Author's Linkedin"
+identifier = "Linkedin"
+url = "https://www.linkedin.com/in/xuannguyen-hoang"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Author's GitHub"
+identifier = "GitHub"
+url = "https://github.com/0856969995"
 weight = 20
 
 [Languages.vi]
-title = "AWS System Manager"
+title = "AWS Transit Gateway Workshop"
 weight = 2
 languageName = "Tiếng Việt"
 
 [[Languages.vi.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> AWS Study Group"
+name = "<i class='fab fa-facebook'></i> AWS Study Group - Nhóm FB"
 identifier = "AWS Study Group FB"
-url = "https://www.facebook.com/groups/awsstudygroupfcj/"
+url = "https://www.facebook.com/groups/awsstudygroupfcj"
 weight = 20
 
+[[Languages.vi.menu.shortcuts]]
+name = "<i class='fab fa-linkedin'></i> Author's Linkedin"
+identifier = "Linkedin"
+url = "https://www.linkedin.com/in/xuannguyen-hoang"
+weight = 20
+
+[[Languages.vi.menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Author's GitHub"
+identifier = "GitHub"
+url = "https://github.com/0856969995"
+weight = 20
